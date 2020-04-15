@@ -6,6 +6,48 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Formulario</h1>
+
+    <form>
+        <label for="nombreusuario">Nombre de Usuario</label>
+        <input type="text" id="nombreusuario" name="nombreusuario" placeholder="Nombre de Usuario">
+        <br><br>
+        <label for="email">Correo</label>
+        <input type="email" id="email" name="email" placeholder="email"> 
+        <br><br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="contraseña" placeholder="contraseña">
+        <br><br>
+
+        <p>Genero:</p>
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="femenino" name="genero" value="Femenino">
+        <label for="femenino">Femenino</label><br>
+        <input type="radio" id="otro" name="genero" value="Otro">
+        <label for="otro">Otro</label>
+
+        <br><br>
+        <label for="">Pregunta de </label>
+        <select name="pregunta" id="pregunta">
+            <option value="p1">Cual es tu color favorito?</option>
+            <option value="p1">Cual es tu pelicula fovorita?</option>
+            <option value="p1">Cual es el nombre de tu mamá?</option>
+        </select>
+        <br><br>
+        <label for="respuesta">Respuesta</label>
+        <input type="text" id="respuesta"name="respuesta">
+
+        <br><br>
+        <label for="comentarios">Comentarios</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Comentarios..."></textarea>
+
+        <br><br>
+
+        <input type="button" value="Enviar datos">
+    </form>
+
+
 </body>
 </html>
