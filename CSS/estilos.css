@@ -1,16 +1,12 @@
-.titulo1{
-  color: red;
+.seccion1{
+    color: white;
+    background-color: salmon;
 }
 
-.titulo2{
-    color: blue;
+.seccion2{
+    color: green;
+    background-color: springgreen;
 }
 
-.titulo3{
-    color: yellow;
-}
 
-.parrafo{
-    color: goldenrod;
-}
 
