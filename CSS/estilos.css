@@ -1,22 +1,14 @@
 span{
-    background-color: rosybrown;
-}
-em{
-    background-color: salmon;
-}
-a{
-    background-color: slateblue;
+    border: 2px solid crimson;
+    margin: 40px;
+    padding: 40px;
+    background-color: darkgoldenrod;
 }
 
+
 div{
-    background-color: slateblue;
-}
-h3{
-    background-color: springgreen;
-}
-p{
-    background-color: wheat;
-}
-ul{
-    background-color: turquoise;
+    border: 2px solid crimson;
+    margin: 20px; /*top left right...*/
+    padding: 20px;
+    
 }
