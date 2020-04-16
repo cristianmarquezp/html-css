@@ -4,7 +4,19 @@ span{
 em{
     background-color: salmon;
 }
-
 a{
     background-color: slateblue;
+}
+
+div{
+    background-color: slateblue;
+}
+h3{
+    background-color: springgreen;
+}
+p{
+    background-color: wheat;
+}
+ul{
+    background-color: turquoise;
 }
